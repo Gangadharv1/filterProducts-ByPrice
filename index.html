@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product List</h1>
+        <label for="priceThreshold">Filter by Price Threshold:</label>
+        <input type="number" id="priceThreshold" placeholder="Enter price" />
+        <button id="filterButton">Filter Products</button>
+        <button id="clearButton">Clear</button> 
+
+        <h2>Filtered Products:</h2>
+        <ul id="productList"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
